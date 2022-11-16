@@ -54,7 +54,7 @@ class Menu():
             self.cart.remove_item()
         elif self.selection == "4":
             self.cart.calculate_total()
-        elif self.selection == "5" or "Quit":
+        elif self.selection == "5":
             self.quit()
         else:
             print("Incorrect option, try again.")
